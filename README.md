@@ -9,6 +9,19 @@
 | JS Play Ground | https://stephengrider.github.io/JSPlaygrounds/ | 
  
 
+## Challenges online for Algorithms and coding
+
+| Description   | URL           | 
+| ------------- |:-------------:| 
+| Code fast and code well with JavaScript | http://www.codewars.com/ | 
+| Try to solve many problems using JavaScript | https://coderbyte.com/ | 
+| Solve challenges online using JavaScript | https://www.codingame.com/start | 
+| CodeFights with JavaScript become in a Hero | https://codefights.com/ | 
+| Formulas for combinatory | http://www.vitutor.com/pro/1/a_f.html | 
+| HackerRank one of the best pages for challenges | https://www.hackerrank.com | 
+| Exercism | http://exercism.io/ |
+ 
+
 ## Complexity Algorithms
 
 | Complexity   | Notation | Description           | 
