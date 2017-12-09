@@ -21,4 +21,7 @@
 | Exponential Time | n ^ 2 | If you add a 'single' element to a collection, the processing power requires doubles |
 
 ![Complexity Algorithms](https://he-s3.s3.amazonaws.com/media/uploads/ece920b.png)
+
+![Complexity Algorithms](https://qph.ec.quoracdn.net/main-qimg-e6f05620ec57cc99da28c3b2ad9ea755)
+
 ![Complexity Algorithms](https://he-s3.s3.amazonaws.com/media/uploads/c950295.png)
