@@ -20,3 +20,5 @@
 | Quadratic Time | 2 ^ n | Every element in a collection has to be compared to every other element. The 'handshake problem' |
 | Exponential Time | n ^ 2 | If you add a 'single' element to a collection, the processing power requires doubles |
 
+![Complexity Algorithms](https://he-s3.s3.amazonaws.com/media/uploads/ece920b.png)
+![Complexity Algorithms](https://he-s3.s3.amazonaws.com/media/uploads/c950295.png)
