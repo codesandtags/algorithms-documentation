@@ -20,6 +20,7 @@
 | Formulas for combinatory | http://www.vitutor.com/pro/1/a_f.html | 
 | HackerRank one of the best pages for challenges | https://www.hackerrank.com | 
 | Exercism | http://exercism.io/ |
+| Code Chef | https://www.codechef.com/wiki/tutorials |
  
 
 ## Complexity Algorithms
