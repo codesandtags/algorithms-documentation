@@ -21,6 +21,13 @@
 | HackerRank one of the best pages for challenges | https://www.hackerrank.com | 
 | Exercism | http://exercism.io/ |
 | Code Chef | https://www.codechef.com/wiki/tutorials |
+
+## Fundamentals
+
+| Description   | URL           | 
+| ------------- |:-------------:| 
+| Data Structures explained  | https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b | 
+
  
 
 ## Complexity Algorithms
