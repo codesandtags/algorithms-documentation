@@ -46,3 +46,13 @@
 ![Complexity Algorithms](https://qph.ec.quoracdn.net/main-qimg-e6f05620ec57cc99da28c3b2ad9ea755)
 
 ![Complexity Algorithms](https://he-s3.s3.amazonaws.com/media/uploads/c950295.png)
+
+## Useful things
+* Because I love the time and time is gold, that's why I've decided to use Intellij as my favorite IDE. Here I will put some useful links in order to optimize the time coding.
+
+| Description   | URL           | 
+| ------------- |:-------------:| 
+| Basics in Intellij  | https://www.jetbrains.com/help/idea/discover-intellij-idea.html | 
+| Pro Tips in Intellij | https://www.jetbrains.com/help/idea/intellij-idea-pro-tips.html | 
+
+
