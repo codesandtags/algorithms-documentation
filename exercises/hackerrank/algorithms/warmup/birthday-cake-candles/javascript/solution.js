@@ -43,6 +43,7 @@ function main() {
     var n = parseInt(readLine());
     ar = readLine().split(' ');
     ar = ar.map(Number);
+    ar.sort();
     var result = birthdayCakeCandles(n, ar);
     process.stdout.write("" + result + "\n");
 
