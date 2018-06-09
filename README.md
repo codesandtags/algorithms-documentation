@@ -1,4 +1,4 @@
-# Algorithms Documentation 2017 
+# Algorithms Documentation 2018
 > This is a compilation about all topics related with the Algorithms that I'm learning everyday
 
 ## Live Code
@@ -7,8 +7,9 @@
 | ------------- |:-------------:| 
 | JS Bin  | http://jsbin.com/tutacox/edit?js,console | 
 | JS Play Ground | https://stephengrider.github.io/JSPlaygrounds/ | 
+| Stack Blitz | https://stackblitz.com/ |
+| Code Pen | https://codepen.io/ |
  
-
 ## Challenges online for Algorithms and coding
 
 | Description   | URL           | 
@@ -21,6 +22,8 @@
 | HackerRank one of the best pages for challenges | https://www.hackerrank.com | 
 | Exercism | http://exercism.io/ |
 | Code Chef | https://www.codechef.com/wiki/tutorials |
+| LeetCode is the best platform to help you enhance your skill | https://leetcode.com/ |
+| Platform to take coding test for companies | https://app.codility.com/programmers/ |
 
 ## Fundamentals
 
@@ -53,6 +56,7 @@
 | Description   | URL           | 
 | ------------- |:-------------:| 
 | Basics in Intellij  | https://www.jetbrains.com/help/idea/discover-intellij-idea.html | 
-| Pro Tips in Intellij | https://www.jetbrains.com/help/idea/intellij-idea-pro-tips.html | 
+| Pro Tips in Intellij | https://www.jetbrains.com/help/idea/intellij-idea-pro-tips.html |
+| IntelliJ Course | https://javaspecialists.teachable.com/p/intellij-wizardry | 
 
 
