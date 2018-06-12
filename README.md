@@ -23,6 +23,7 @@
 | Exercism | http://exercism.io/ |
 | Code Chef | https://www.codechef.com/wiki/tutorials |
 | LeetCode is the best platform to help you enhance your skill | https://leetcode.com/ |
+| LeetCode solutions explained | https://jeantimex.gitbooks.io/solve-leetcode-problems/content/ |
 | Platform to take coding test for companies | https://app.codility.com/programmers/ |
 
 ## Fundamentals
