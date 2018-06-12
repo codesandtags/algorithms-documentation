@@ -24,6 +24,7 @@
 | Code Chef | https://www.codechef.com/wiki/tutorials |
 | LeetCode is the best platform to help you enhance your skill | https://leetcode.com/ |
 | LeetCode solutions explained | https://jeantimex.gitbooks.io/solve-leetcode-problems/content/ |
+| LeetCode solutions in Java | https://legacy.gitbook.com/book/tenderleo/leetcode-solutions-/details|
 | Platform to take coding test for companies | https://app.codility.com/programmers/ |
 
 ## Fundamentals
