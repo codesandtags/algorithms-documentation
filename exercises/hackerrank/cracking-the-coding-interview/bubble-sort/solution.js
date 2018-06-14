@@ -1,16 +1,18 @@
 function bubbleSort(n) {
     let swaps = 0;
     let isSorted = false;
+    let lastUnsorted = n.length - 1;
 
     while(!isSorted) {
         isSorted = true;
-        for(let i = 0; i < n.length - 1; i++) {
+        for(let i = 0; i < lastUnsorted; i++) {
             if (n[i] > n[i + 1]) {
                 swap(n, i, i + 1);
                 isSorted =  false;
                 swaps++;
             }
         }
+        lastUnsorted--;
     }
 
     console.log(`Array is sorted in ${swaps} swaps.`);
