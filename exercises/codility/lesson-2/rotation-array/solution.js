@@ -9,8 +9,7 @@ function solution(numbers, times) {
 
   // Solution using mutation
   for (let i = 0; i < times; i++) {
-    const number = numbers.pop();
-    numbers.unshift(number);
+    numbers.unshift(numbers.pop());
   }
 
   return numbers;
