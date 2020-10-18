@@ -1,5 +1,7 @@
 # Algorithms Documentation 2020
 
+[![Run on Repl.it](https://repl.it/badge/github/codesandtags/algorithms-documentation)](https://repl.it/github/codesandtags/algorithms-documentation)
+
 > This is a compilation about all topics related with the Algorithms that I'm learning everyday
 
 ## Live Code
