@@ -6,12 +6,12 @@ const arr = [1,2,3,4,4,4,5,5,6,7];
 
 let object = {};
 let numFreq = arr[0];
-let max = 1;
+let max = 0;
 
 for( let i = 0; i < arr.length; i++) {
    let el = arr[i];
 
-   if( object[el] == null) {
+   if( object[el] == undefined) {
        object[el] = 1;
    } else {
        object[el]++;
@@ -26,7 +26,7 @@ for( let i = 0; i < arr.length; i++) {
 console.log('The most frequent number is', numFreq);
 
 let numbers = new Map();
-max = 1;
+max = 0;
 
 for( let i = 0; i < arr.length; i++) {
    let el = arr[i];
@@ -43,10 +43,10 @@ for( let i = 0; i < arr.length; i++) {
 
 console.log('The most frequent number is', numFreq);
 
-max = 1;
+max = 0;
 
 arr.reduce((acum, current) => {
-   if (acum[current] == null) {
+   if (acum[current] == undefined) {
        acum[current] = 1;
    } else {
        acum[current]++;
