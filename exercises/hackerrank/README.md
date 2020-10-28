@@ -7,3 +7,8 @@
 - [How to Approach Behavioral Questions](https://www.youtube.com/watch?v=tZxNNKqxXnw&feature=emb_title):
 
 - [How to Approach Behavioral Questions](https://www.youtube.com/watch?v=tZxNNKqxXnw&feature=emb_title):
+
+## Common algorithms for interviews
+
+- [Flood Fill](https://en.wikipedia.org/wiki/Flood_fill), (Category: Arrays, Graphs).
+-
