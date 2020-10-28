@@ -22,6 +22,7 @@ function getPrimes(n) {
   return primes;
 }
 
+// Eficient solution: https://es.wikipedia.org/wiki/Criba_de_Erat%C3%B3stenes
 function sieveOfEratosthenes(n) {
   let sieve = new Array(n).fill(true);
   let length = Math.sqrt(n);
