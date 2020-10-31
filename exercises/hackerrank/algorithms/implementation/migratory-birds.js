@@ -1,10 +1,9 @@
-function getFrequency(arr) {
-  return arr.reduce((frequency, current) => {
-    if (frequency[current] === undefined) frequency[current] = 0;
-    frequency[current]++;
-
-    return frequency;
-  }, {});
+function getFrequency(numbers) {
+  return numbers.reduce(
+    (frequency, current) =>
+      frequency.set(current, (frequency.get(current) || 0) + 1),
+    new Map()
+  );
 }
 
 function migratoryBirds(birds) {
