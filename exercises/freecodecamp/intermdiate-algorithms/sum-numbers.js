@@ -1,17 +1,11 @@
-function palindrome(str) {
-  const letters = str
-    .toLowerCase()
-    .replace(/[^a-z0-9]/gi, "")
-    .split("");
+function sumAll(arr) {
+  let sum = 0;
 
-  for (let i = 0; i < letters.length; i++) {
-    if (letters[i] !== letters[letters.length - i - 1]) {
-      return false;
-    }
+  for (let n = Math.min(...arr); n <= Math.max(...arr); n++) {
+    sum += n;
   }
 
-  return true;
+  return sum;
 }
 
-palindrome("eye");
-palindrome("1 eye for of 1 eye.");
+sumAll([1, 4]);
