@@ -33,11 +33,12 @@
 
 ## Fundamentals
 
-| Description               |                                                  URL                                                   |
-| ------------------------- | :----------------------------------------------------------------------------------------------------: |
+| Description               | URL                                                                                                    |
+| ------------------------- | :----------------------------------------------------------------------------------------------------- |
 | Data Structures explained | https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b |
-| Big O Cheat Sheet         |                                    https://www.bigocheatsheet.com/                                     |
-| Algorithms Visualization  |                     https://www.cs.usfca.edu/~galles/visualization/Algorithms.html                     |
+| Big O Cheat Sheet         | https://www.bigocheatsheet.com/                                                                        |
+| Algorithms Visualization  | https://www.cs.usfca.edu/~galles/visualization/Algorithms.html                                         |
+| Big O Array JavaScript    | https://dev.to/lukocastillo/time-complexity-big-0-for-javascript-array-methods-and-examples-mlg        |
 
 ## Complexity Algorithms
 
