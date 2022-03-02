@@ -15,3 +15,8 @@ var isSubsequence = function (s, t) {
 
   return index >= SL;
 };
+
+isSubsequence("abc", "a"); // false
+isSubsequence("aaaaaa", "bbaaaa"); // false
+isSubsequence("ace", "abcde"); // true
+isSubsequence("aec", "abcde"); // false
