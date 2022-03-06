@@ -36,6 +36,8 @@ console.info(getTwoNumbersSum([1], 1));
 console.info(getTwoNumbersSum([1, 2], 3));
 
 // Optmized solution
+// T = O(N)
+// S = O(N)
 const getTwoNumbersOpmitzed = (nums, target) => {
   const numsMap = {};
 
