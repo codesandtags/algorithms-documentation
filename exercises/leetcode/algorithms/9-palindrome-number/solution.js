@@ -50,3 +50,16 @@ console.log(isPalindromeImproved(11111)); // true
 console.log(isPalindromeImproved(115411)); // false
 console.log(isPalindromeImproved(9999)); // true
 */
+
+function reverseNumber(number) {
+  if (number <= 0) {
+    return number;
+  }
+
+  while (number > 0) {
+    console.log(number % 10);
+    number = Math.floor(number / 10);
+  }
+}
+
+reverseNumber(1234567890);
