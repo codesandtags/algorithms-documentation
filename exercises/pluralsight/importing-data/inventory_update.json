@@ -1,0 +1,102 @@
+[
+    {
+        "id": 72227,
+        "cost": 45.35
+    },
+    {
+        "id": 14324,
+        "brand": "Lowlands"
+    },
+    {
+        "id": 80690,
+        "color": "red"
+    },
+    {
+        "id": 1438,
+        "brand": "North by Northwest"
+    },
+    {
+        "id": 65510,
+        "color": "red"
+    },
+    {
+        "id": 86190,
+        "brand": "Lowlands"
+    },
+    {
+        "id": 60388,
+        "price": 101.94
+    },
+    {
+        "id": 9678,
+        "price": 294.47
+    },
+    {
+        "id": 66777,
+        "color": "red"
+    },
+    {
+        "id": 88751,
+        "price": 32.58
+    },
+    {
+        "id": 59121,
+        "brand": "Wilder"
+    },
+    {
+        "id": 60388,
+        "color": "yellow"
+    },
+    {
+        "id": 98408,
+        "color": "blue"
+    },
+    {
+        "id": 38527,
+        "price": 111.45
+    },
+    {
+        "id": 92813,
+        "cost": 79.6
+    },
+    {
+        "id": 21508,
+        "brand": "Red Rock"
+    },
+    {
+        "id": 10252,
+        "color": "blue"
+    },
+    {
+        "id": 16869,
+        "cost": 113.56
+    },
+    {
+        "id": 69237,
+        "color": "blue"
+    },
+    {
+        "id": 46320,
+        "cost": 92.3
+    },
+    {
+        "id": 88146,
+        "brand": "Simonis"
+    },
+    {
+        "id": 5137,
+        "brand": "Lowlands"
+    },
+    {
+        "id": 75725,
+        "cost": 77.5
+    },
+    {
+        "id": 59121,
+        "cost": 103.49
+    },
+    {
+        "id": 51535,
+        "price": 347.55
+    }
+]
