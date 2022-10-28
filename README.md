@@ -51,7 +51,7 @@
 | Quadratic Time   |    2 ^ n    |                                                              Every element in a collection has to be compared to every other element. The 'handshake problem' |
 | Exponential Time |    n ^ 2    |                                                                          If you add a 'single' element to a collection, the processing power requires doubles |
 
-![Complexity Algorithms](https://i0.wp.com/www.jessicayung.com/wp-content/uploads/2016/08/screenshot-5.png)
+![Complexity Algorithms](https://images.squarespace-cdn.com/content/v1/5acbdd3a25bf024c12f4c8b4/1599000012698-NJEGM0BCGG5ZKGIWC1GU/Big%2BO%2BNotation%2BSummary%2B%281%29.jpg)
 
 ![Data structures](https://miro.medium.com/max/1017/1*cQ78W0R0qxaSgYLosfYMxg.png)
 
@@ -59,7 +59,7 @@
 
 ## Useful things
 
-- Because I love the time and time is gold, that's why I've decided to use Intellij as my favorite IDE. Here I will put some useful links in order to optimize the time coding.
+-  Because I love the time and time is gold, that's why I've decided to use Intellij as my favorite IDE. Here I will put some useful links in order to optimize the time coding.
 
 | Description          |                               URL                               |
 | -------------------- | :-------------------------------------------------------------: |
