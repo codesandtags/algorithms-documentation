@@ -4,19 +4,18 @@
  * @return {boolean}
  */
 var isSubsequence = function (s, t) {
-  if (s.length > t.length) return false;
+   if (s.length > t.length) return false
 
-  let index = 0;
-  const SL = s.length;
+   let index = 0
 
-  for (let i = 0; i < t.length || index === SL; i++) {
-    if (s[index] === t[i]) index++;
-  }
+   for (let c of t) {
+      if (s[index] === c) index++
+   }
 
-  return index >= SL;
-};
+   return index >= s.length
+}
 
-isSubsequence("abc", "a"); // false
-isSubsequence("aaaaaa", "bbaaaa"); // false
-isSubsequence("ace", "abcde"); // true
-isSubsequence("aec", "abcde"); // false
+isSubsequence('abc', 'a') // false
+isSubsequence('aaaaaa', 'bbaaaa') // false
+isSubsequence('ace', 'abcde') // true
+isSubsequence('aec', 'abcde') // false
