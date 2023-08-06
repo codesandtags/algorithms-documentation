@@ -2,27 +2,27 @@
 // that add up to a given target
 
 function twoSum(numbers, target) {
-  console.log(numbers);
+   console.log(numbers)
 
-  for (let i = 0; i < numbers.length; i++) {
-    let numberToFind = target - numbers[i];
+   for (let i = 0; i < numbers.length; i++) {
+      let numberToFind = target - numbers[i]
 
-    for (let k = i + 1; k < numbers.length; k++) {
-      if (numbers[k] === numberToFind) {
-        return [i, k];
+      for (let k = i + 1; k < numbers.length; k++) {
+         if (numbers[k] === numberToFind) {
+            return [i, k]
+         }
       }
-    }
-  }
+   }
 
-  return null;
+   return null
 }
 
-var input = "1 2 3 4 5".split(" ").map(Number); // Output : 3, 4
-var target = 11;
+var input = '1 2 3 4 5'.split(' ').map(Number) // Output : 3, 4
+var target = 11
 
-console.time("solution");
-console.log(`Solution : ${twoSum(input, target)}`);
-console.timeEnd("solution");
+console.time('solution')
+console.log(`Solution : ${twoSum(input, target)}`)
+console.timeEnd('solution')
 
 /** 
     Steps for solution:
@@ -69,3 +69,24 @@ console.timeEnd("solution");
      - Increase the space complexity
 
 **/
+
+const findTwoSumOptimized = (numbers, target) => {
+   // Validations
+   const LENGTH = numbers.length
+   const numsMap = {}
+
+   // Traverse array
+   for (let p = 0; p < LENGTH; p++) {
+      const numberToFind = target - numbers[p]
+      const curentMapVal = numsMap[numbers[p]]
+
+      if (curentMapVal > 0) {
+         return [curentMapVal, p]
+      } else {
+         numsMap[numberToFind] = p
+      }
+   }
+
+   // No solution found
+   return null
+}

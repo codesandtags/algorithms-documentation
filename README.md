@@ -1,4 +1,4 @@
-# Algorithms Documentation 2022
+# Algorithms Documentation 2023
 
 [![Run on Repl.it](https://repl.it/badge/github/codesandtags/algorithms-documentation)](https://repl.it/github/codesandtags/algorithms-documentation)
 
@@ -66,3 +66,9 @@
 | Basics in Intellij   | https://www.jetbrains.com/help/idea/discover-intellij-idea.html |
 | Pro Tips in Intellij | https://www.jetbrains.com/help/idea/intellij-idea-pro-tips.html |
 | IntelliJ Course      |    https://javaspecialists.teachable.com/p/intellij-wizardry    |
+
+## References
+
+I have studied these contents from the next resources:
+
+-  [Master the Coding Interview: Big Tech (FAANG) Interviews - Zero To Mastery](https://zerotomastery.io/courses/faang-interview-prep/)
