@@ -1,25 +1,28 @@
 {
-  "name": "algorithms-documentation",
-  "version": "1.0.0",
-  "description": "project dedicated to algorithms and exercises",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandtags/algorithms-documentation.git"
-  },
-  "keywords": [
-    "algorithms",
-    "interview",
-    "faang"
-  ],
-  "author": "codesandtags",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/codesandtags/algorithms-documentation/issues"
-  },
-  "homepage": "https://github.com/codesandtags/algorithms-documentation#readme",
-  "dependencies": {}
+   "name": "algorithms-documentation",
+   "version": "1.0.0",
+   "description": "project dedicated to algorithms and exercises",
+   "main": "index.js",
+   "scripts": {
+      "test": "jest",
+      "test:watch": "jest --watch"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/codesandtags/algorithms-documentation.git"
+   },
+   "keywords": [
+      "algorithms",
+      "interview",
+      "faang"
+   ],
+   "author": "codesandtags",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/codesandtags/algorithms-documentation/issues"
+   },
+   "homepage": "https://github.com/codesandtags/algorithms-documentation#readme",
+   "devDependencies": {
+      "jest": "^29.6.2"
+   }
 }
