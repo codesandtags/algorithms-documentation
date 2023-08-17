@@ -23,6 +23,7 @@
    },
    "homepage": "https://github.com/codesandtags/algorithms-documentation#readme",
    "devDependencies": {
-      "jest": "^29.6.2"
+      "jest": "^29.6.2",
+      "prettier": "^3.0.2"
    }
 }
