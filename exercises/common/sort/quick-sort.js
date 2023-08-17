@@ -5,6 +5,12 @@
  * It picks an element as pivot and partitions the given 
  * array around the picked pivot.
  * 
+ * The key process in quickSort is partition().
+ * 
+ * Target Complexity:
+ * time O(n log n)
+ * space O(log n)
+ * 
  * @param {*} array 
  */
 function quickSort(array) {
