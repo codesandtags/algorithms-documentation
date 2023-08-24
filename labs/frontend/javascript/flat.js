@@ -16,6 +16,7 @@ const liberarAnimales = (zoologico) => {
    return animales
 }
 
+// Solucion con flat
 const liberarAnimalesFlat = (zoologico) => {
    return zoologico.flat(Infinity)
 }
