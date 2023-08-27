@@ -1,10 +1,11 @@
 // time: O(n)
 // space: O(1)
 function isValidSubsequence(array, sequence) {
-   if (array.length < sequence.length || sequence.length === 0) return false
+   if (array.length < sequence.length) return false
 
    let index = 0
    for (let n of array) {
+      if (index >= sequence.length) return true
       if (n === sequence[index]) {
          index++
       }
