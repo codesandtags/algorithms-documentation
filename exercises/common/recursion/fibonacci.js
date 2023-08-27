@@ -1,31 +1,79 @@
-// Given a number N return the index value of the Fibonacci sequence, where the sequence is:
-
-// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 ...
-// the pattern of the sequence is that each value is the sum of the 2 previous values, that means that for N=5 → 2+3
-
-//For example: fibonacciRecursive(6) should return 8
-
-// O(2^n)
-function fibonacciRecursive(n) {
-  if (n < 2) {
-    return n;
-  }
-
-  return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
+/*
+https://en.wikipedia.org/wiki/Fibonacci_sequence
+Fibonacci sequence
+fib 0 => 0
+fib 1 => 1
+fib 2 => 1
+fib 3 => 2
+fib 4 => 3
+fib 5 => 5
+fib 6 => 8
+fib 7 => 13
+fib 8 => 21
+fib 9 => 34
+fib 10 => 55
+*/
+function fibonacciRecursion(n) {
+   if (n <= 2) {
+      return n
+   }
+   return fibonacciRecursion(n - 2) + fibonacciRecursion(n - 1)
 }
 
-fibonacciRecursive(6); // 8
-fibonacciRecursive(8); // 21
-fibonacciRecursive(10); // 55
+function fibonacciLoop(n) {
+   const nums = [0, 1]
 
-// O(n)
-function fibonacciIterative(n) {
-  //code here;
-  let answer = [0, 1];
+   for (let index = 2; index <= n; index++) {
+      nums[index] = nums[index - 2] + nums[index - 1]
+   }
 
-  for (let i = 2; i < n + 1; i++) {
-    answer.push(answer[i - 1] + answer[i - 2]);
-  }
-  return answer[n];
+   return nums[n]
 }
-fibonacciIterative(10);
+
+function fibonacciBitnet(n) {
+   var sqRootOf5 = Math.sqrt(5)
+
+   var Phi = (1 + sqRootOf5) / 2
+   var phi = (1 - sqRootOf5) / 2
+
+   return Math.round((Math.pow(Phi, n) - Math.pow(phi, n)) / sqRootOf5)
+}
+
+function fibonacciMemoization(n, memo = {}) {
+   if (memo[n]) {
+      return memo[n]
+   }
+
+   if (n <= 2) {
+      return 1
+   }
+
+   memo[n] =
+      fibonacciMemoization(n - 1, memo) + fibonacciMemoization(n - 2, memo)
+
+   return memo[n]
+}
+
+for (let i = 0; i < 15; i++) {
+   console.log({
+      [i]: fibonacciRecursion(i),
+   })
+}
+
+for (let i = 0; i < 15; i++) {
+   console.log({
+      [i]: fibonacciLoop(i),
+   })
+}
+
+for (let i = 0; i < 15; i++) {
+   console.log({
+      [i]: fibonacciBitnet(i),
+   })
+}
+
+for (let i = 0; i < 15; i++) {
+   console.log({
+      [i]: fibonacciMemoization(i),
+   })
+}
