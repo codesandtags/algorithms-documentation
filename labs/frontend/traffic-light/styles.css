@@ -1,0 +1,61 @@
+body {
+   font-family: sans-serif;
+   padding: 20px;
+   min-height: 100vh;
+   background: linear-gradient(white, gray);
+}
+
+.traffic-light-container {
+   padding: 20px;
+   background: #000;
+   width: 100%;
+   max-width: 150px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.traffic-light-container::after {
+   content: 'Codes and Tags';
+   text-align: center;
+   color: #aaa;
+   font-size: 10px;
+   letter-spacing: 1px;
+}
+
+.light {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background: white;
+   transition: background-color 0.3s ease-in;
+}
+
+.red {
+   background-color: #550000;
+}
+
+.yellow {
+   background-color: #555500;
+}
+
+.green {
+   background-color: #005500;
+}
+
+.red.active {
+   background-color: #ff0000;
+}
+
+.yellow.active {
+   background-color: #ffff00;
+}
+
+.green.active {
+   background-color: #00ff00;
+}
