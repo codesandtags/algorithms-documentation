@@ -1,0 +1,14 @@
+body {
+   font-family: sans-serif;
+}
+
+.star-icon {
+   --icon-size: 32px;
+   height: var(--icon-size);
+   width: var(--icon-size);
+   cursor: pointer;
+}
+
+.star-icon-filled {
+   fill: yellow;
+}
