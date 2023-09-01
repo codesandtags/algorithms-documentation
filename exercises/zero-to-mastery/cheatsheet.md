@@ -80,6 +80,9 @@ From Andrei Neagoie's Master The Coding Interview: Data Structures + Algorithms
 -  ✅ Can I use additional data structures? (i.e. data map)
 -  ✅ Can I assume this is only for English?
 -  ✅ What is the length of the string?
+-  ✅ Is data uppercase or lowercase?
+-  ✅ What happends when the string is empty?
+-  ✅ What happens when the string is one character?
 
 ## Common questions for array manipulation:
 
@@ -90,6 +93,28 @@ From Andrei Neagoie's Master The Coding Interview: Data Structures + Algorithms
 -  ✅ Can I assume we're working with an array of strings?
 -  ✅ Can I assume this array fits in memory?
 -  ✅ Can I assume this is an array of characters?
+-  ✅ What happens when the array is empty?
+-  ✅ What happens when the array has one element?
+-  ✅ What happens when the array has two elements?
+-  ✅ What happens when the array has a negative number?
+
+## Common questions for numbers
+
+-  ✅ Can I assume the numbers are integers?
+-  ✅ Can I assume the numbers are positive?
+-  ✅ Can I assume the numbers are negative?
+-  ✅ Can I assume the numbers are in the range of 32 bit integers?
+-  ✅ Can I assume the numbers are in the range of 64 bit integers?
+-  ✅ Can I assume the numbers are floating point numbers?
+-  ✅ Can I assume the numbers are double precision floating point numbers?
+-  ✅ Can I assume the numbers are single precision floating point numbers?
+-  ✅ Can I assume the numbers are unsigned?
+-  ✅ Can I assume the numbers are signed?
+-  ✅ Can I assume the numbers are prime?
+-  ✅ Can I assume the numbers are consecutive?
+-  ✅ Can I assume the numbers are even?
+-  ✅ Can I assume the numbers are odd?
+-  ✅ Can I assume the numbers are sorted?
 
 ## Common questions for linked lists:
 

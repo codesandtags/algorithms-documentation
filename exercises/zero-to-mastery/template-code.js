@@ -19,3 +19,14 @@
      - Reduce the time complexity
      - Increase the space complexity
 **/
+/*
+ * Description of the problem
+ *
+ * @param {*} variableName
+ * @returns {*} expected result
+ */
+function functionName(variableName) {
+   // Defintion of edges cases
+   // Defintion of test cases and steps
+   // Return the result
+}
