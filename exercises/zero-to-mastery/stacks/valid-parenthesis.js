@@ -3,7 +3,7 @@
  * @param {string} string to evaluate
  * @returns {boolean} true if the string is valid, false otherwise
  *
- * Rules:
+ * Rules and edge cases:
  * 1. If string is empty then return true
  * 2. If string has only one element then return false
  * 3. If string has an odd number of elements then return false
