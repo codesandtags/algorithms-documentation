@@ -19,14 +19,21 @@
      - Reduce the time complexity
      - Increase the space complexity
 **/
+
 /*
- * Description of the problem
+ * Description of the problem and what I understood
  *
- * @param {*} variableName
- * @returns {*} expected result
+ * Definition of the arguments and out expected
+ * @param {type} variableName
+ * @returns {type} expected result
+ *
+ * Definition of rules and examples with edge cases (questions)
+ * @example
+ * functionName([value1, value2]) => expected output
  */
 function functionName(variableName) {
-   // Defintion of edges cases
-   // Defintion of test cases and steps
-   // Return the result
+   // Step 1: validate edge cases
+   // Step 2: Describe steps to solve the problem
+   // Step 2 .... : Definition of other steps
+   // Step x: return the result
 }
