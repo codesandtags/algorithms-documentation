@@ -4,10 +4,14 @@
  * @return {Function}
  */
 function myBind(thisArg, ...boundArgs) {
-   const originalMethod = this
+   const originalFunction = this
+
+   if (typeof originalFunction !== 'function') {
+      throw new TypeError('This function must be called on a function')
+   }
 
    return function (...args) {
-      return originalMethod.apply(thisArg, [...boundArgs, ...args])
+      return originalFunction.apply(thisArg, [...boundArgs, ...args])
    }
 }
 
