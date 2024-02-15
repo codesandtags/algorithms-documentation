@@ -44,3 +44,7 @@ Thumbs.db
 # Ignored files in order to avoid error in heroku build
 yarn.lock
 package.json.lock
+
+# Ignore pytest cache
+.pytest_cache
+__pycache__
