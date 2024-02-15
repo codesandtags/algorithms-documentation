@@ -3,13 +3,14 @@ class Solution:
         """
         :type nums: List[int]
         :rtype: bool
+        :time complexity: O(n)
+        :space complexity: O(n)
         """
         duplicates = set()
 
         for num in nums:
             if num in duplicates:
                 return True
-            else:
-                duplicates.add(num)
+            duplicates.add(num)
 
         return False

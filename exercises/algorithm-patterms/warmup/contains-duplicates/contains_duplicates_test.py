@@ -1,4 +1,4 @@
-from problem import Solution
+from contains_duplicates import Solution
 
 def test_no_duplicates():
     s = Solution()

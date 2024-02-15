@@ -2,8 +2,8 @@
  * @param {array} nums
  * @return {boolean} true if there are duplicates, false if not
  *
- * space:
- * time:
+ * time complexity: O(n)
+ * space complexity: O(n)
  */
 class Solution {
    containsDuplicate(nums) {
