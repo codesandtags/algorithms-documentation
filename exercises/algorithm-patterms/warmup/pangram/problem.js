@@ -1,9 +1,10 @@
 /**
+ *
  * @param {string} sentence
  * @return {boolean} if it is a pangram
  *
- * time complexity: O(n + a)
- * space complexity: O(n)
+ * Time Complexity: O(n) where n is the length of the input string.
+ * Space Complexity: O(1) (constant space, independent of input string length).
  */
 class Solution {
    // Function to check if given sentence is pangram
