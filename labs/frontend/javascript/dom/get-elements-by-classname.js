@@ -2,7 +2,10 @@ function isSubset(a, b) {
    return Array.from(a).every((value) => b.contains(value))
 }
 
-/**
+/*
+ * Traverse DOM and return elements that matches a
+ * a given property and value
+ *
  * @param {Element} element
  * @param {string} classNames
  * @return {Array<Element>}
