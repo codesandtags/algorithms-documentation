@@ -49,3 +49,5 @@ package.json.lock
 # Ignore pytest cache
 .pytest_cache
 __pycache__
+
+daily_git_push.sh
