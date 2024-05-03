@@ -1,0 +1,12 @@
+function findMaxK(nums: number[]): number {
+   let largest = -1
+   const seen = new Set(nums)
+
+   for (const num of nums) {
+      if (seen.has(num * -1)) {
+         largest = Math.max(largest, num)
+      }
+   }
+
+   return largest
+}
