@@ -1,1 +1,1 @@
-# Binary Searh
+# Dynamic Programming 1D

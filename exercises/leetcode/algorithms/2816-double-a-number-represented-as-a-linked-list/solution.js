@@ -14,7 +14,7 @@ var doubleIt = function (head) {
       head = new ListNode(0, head)
    }
 
-   for (node = head; node != null; node = node.next) {
+   for (let node = head; node != null; node = node.next) {
       node.val = (node.val * 2) % 10
 
       if (node.next !== null && node.next.val > 4) {
