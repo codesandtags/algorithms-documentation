@@ -6,13 +6,13 @@
 
 ## Live Code
 
-| Description    |                      URL                       |
-| -------------- | --------------------------------------------  |
-| JS Bin         |    http://jsbin.com/tutacox/edit?js,console    |
+| Description    | URL                                            |
+| -------------- | ---------------------------------------------- |
+| JS Bin         | http://jsbin.com/tutacox/edit?js,console       |
 | JS Play Ground | https://stephengrider.github.io/JSPlaygrounds/ |
-| Stack Blitz    |            https://stackblitz.com/             |
-| Code Pen       |              https://codepen.io/               |
-| GreatFrontend | https://www.greatfrontend.com/ |
+| Stack Blitz    | https://stackblitz.com/                        |
+| Code Pen       | https://codepen.io/                            |
+| GreatFrontend  | https://www.greatfrontend.com/                 |
 
 ## Challenges online for Algorithms and coding
 
