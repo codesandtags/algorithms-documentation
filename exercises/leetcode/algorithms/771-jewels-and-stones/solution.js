@@ -1,19 +1,17 @@
 /**
- * @param {string} J
- * @param {string} S
+ * @param {string} jewels
+ * @param {string} stones
  * @return {number}
  */
-var numJewelsInStones = function(J, S) {
-    var count = 0;
-    J.split('').forEach((jewel) => {
-        count += S.split('').filter(s => s === jewel).length;
-    });
+var numJewelsInStones = function (jewels, stones) {
+   let count = 0
+   let seenJewels = new Set([...jewels])
 
-    return count;
-};
+   for (const stone of stones) {
+      if (seenJewels.has(stone)) {
+         count++
+      }
+   }
 
-// Short solution:
-// var numJewelsInStones = (J, S) => S.split('').filter(s => J.includes(s)).length
-
-// Short solution:
-// var numJewelsInStones = (J, S) => S.split('').filter(i => J.indexOf(i) != -1)).length;
+   return count
+}
