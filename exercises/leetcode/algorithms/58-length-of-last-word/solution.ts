@@ -1,10 +1,5 @@
 function lengthOfLastWord(s: string): number {
-   const words = s.trim().split(/\s+/)
-   const lastWord = words.pop()
+   const words = s.trim().split(/\s/)
 
-   if (lastWord) {
-      return lastWord.length
-   }
-
-   return 0
+   return words.pop()?.length || 0
 }
